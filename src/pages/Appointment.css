@@ -1,0 +1,94 @@
+.appointment-page {
+  padding: 80px 20px;
+  background: white;
+  min-height: calc(100vh - 80px); /* resta altura navbar */
+}
+
+.appointment-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.appointment-image img {
+  width: 100%;
+  max-width: none;
+  flex: 1;               /* ocupa la mitad del contenedor */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.appointment-content {
+  max-width: 600px;
+}
+
+.appointment-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.appointment-content h1::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: black;
+  margin-top: 15px;
+}
+
+.appointment-content p {
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.7;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.treatwell-button {
+  display: inline-block;
+  padding: 14px 36px;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  border: 2px solid black;
+  background: black;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.treatwell-button:hover {
+  background: #b71c1c;
+  color: white;
+  border: 2px solid white;
+}
+
+/* ---------- MÓVIL ---------- */
+@media (max-width: 768px) {
+  .appointment-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .appointment-content h1 {
+    font-size: 2rem;
+  }
+
+  .appointment-content p {
+    font-size: 0.95rem;
+  }
+
+  .treatwell-button {
+    font-size: 0.9rem;
+    padding: 12px 28px;
+  }
+}
