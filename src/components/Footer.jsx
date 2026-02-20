@@ -1,5 +1,6 @@
 import "./Footer.css";
 import { useEffect } from "react";
+import logo from "../assets/logo.png";
 
 export default function Footer() {
   useEffect(() => {
@@ -62,6 +63,11 @@ export default function Footer() {
               </svg>
             </a>
           </div>
+          <img
+            src={logo}
+            alt="Première Estilistas logo"
+            className="footer-logo"
+          />
         </div>
       </div>
 

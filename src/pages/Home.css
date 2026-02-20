@@ -32,7 +32,7 @@
     rgba(255, 255, 255, 0.4) 70%,
     rgba(255, 255, 255, 0.88) 100%
   );
-  border-radius: 65px;
+  border-radius: 65px 65px 65px 0px;
   padding: 1rem;
   margin-bottom: 1rem;
 }
@@ -153,16 +153,31 @@
   font-size: 1.8rem;
   margin-bottom: 10px;
   letter-spacing: 1px;
-  color: #000;
+  /* color: #000; */
 }
 
 .instagram p {
   font-size: 1rem;
   margin-bottom: 25px;
-  color: #000;
+  /* color: #000; */
 }
 
-.instagram-button {
+.instagram h2,
+.instagram p {
+  background: linear-gradient(
+    45deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* .instagram-button {
   display: inline-block;
   padding: 12px 30px;
   border: 2px solid #000;
@@ -178,6 +193,34 @@
 .instagram-button:hover {
   background: #000;
   color: #fff;
+} */
+.instagram-button {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #fff;
+
+  background: linear-gradient(
+    45deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.instagram-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 /* ---------- GOOGLE SECTION ---------- */
@@ -355,4 +398,49 @@
   .carousel-arrow {
     display: none;
   }
+
+  .brands-logos img {
+    max-height: 70px;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+  }
+}
+
+/* ===== MARCAS ===== */
+
+.brands-section {
+  padding: 0px 20px 40px;
+  background: #f8f8f8; /* tono cálido elegante */
+  text-align: center;
+}
+
+.brands-container h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.brands-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.brands-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.brands-logos img {
+  max-height: 120px;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.brands-logos img:hover {
+  opacity: 1;
+  transform: scale(1.05);
 }

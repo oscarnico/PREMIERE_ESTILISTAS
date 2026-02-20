@@ -27,6 +27,11 @@
   flex-wrap: wrap;
 }
 
+.footer-logo {
+  width: 120px;
+  margin-top: 20px;
+}
+
 .footer-left h3 {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
@@ -91,6 +96,11 @@
   .footer-container {
     flex-direction: column;
     gap: 30px;
+  }
+
+  .footer-logo {
+    width: 90px;
+    margin-bottom: 20px;
   }
 
   .footer-bottom {

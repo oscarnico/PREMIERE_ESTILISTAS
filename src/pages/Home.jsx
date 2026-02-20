@@ -10,6 +10,11 @@ import google2 from "../assets/google2.png";
 import google3 from "../assets/google3.png";
 import google4 from "../assets/google4.png";
 import google5 from "../assets/google5.png";
+import loreal from "../assets/loreal.webp";
+import jeanpaulmyne from "../assets/jeanpaulmyne.jpg";
+import redken from "../assets/redken.png";
+import organethic from "../assets/organethic.jfif";
+import inoa from "../assets/inoa.png";
 
 export default function Home() {
   const [bgImage, setBgImage] = useState(heroDesk);
@@ -72,8 +77,7 @@ export default function Home() {
             <img src={vanesa} alt="Premiére Estilistas - Vane" />
           </div>
         </div>
-
-        {/* BLOQUE 2 */}
+        ;{/* BLOQUE 2 */}
         <div className="experience-row reverse">
           <div className="experience-text">
             <h2>Profesionalidad y cercanía</h2>
@@ -85,6 +89,24 @@ export default function Home() {
 
           <div className="experience-image">
             <img src={vanesa} alt="Premiére Estilistas - Vane" />
+          </div>
+        </div>
+      </section>
+
+      {/* ===== MARCAS ===== */}
+      <section className="brands-section">
+        <div className="brands-container">
+          <h2>Trabajamos con las mejores marcas</h2>
+          <p className="brands-subtitle">
+            Calidad profesional para ofrecerte resultados excepcionales
+          </p>
+
+          <div className="brands-logos">
+            <img src={loreal} alt="L'Oréal Professionnel" />
+            <img src={jeanpaulmyne} alt="Jean Paul Mynè" />
+            <img src={redken} alt="Redken" />
+            <img src={organethic} alt="Organethic" />
+            <img src={inoa} alt="Inoa by L'Oréal" />
           </div>
         </div>
       </section>
@@ -112,7 +134,8 @@ export default function Home() {
       {/* GOOGLE */}
       <section className="reviews-section">
         <div className="reviews-header">
-          <h3>Nuestras clientas opinan</h3>
+          <h3>Lo que dicen nuestros clientes</h3>
+          <h4>Testimonios</h4>
 
           <div className="stars">★★★★★</div>
 
