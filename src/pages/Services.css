@@ -92,8 +92,9 @@
 
 .service-card img {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
+  height: auto;
+  max-height: 340px;
+  object-fit: contain;
   border-radius: 12px;
   margin-bottom: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -137,7 +138,7 @@
   }
 
   .service-card img {
-    height: 220px;
+    height: 181px;
   }
 }
 

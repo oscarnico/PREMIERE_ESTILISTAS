@@ -77,7 +77,7 @@ export default function Home() {
             <img src={vanesa} alt="Premiére Estilistas - Vane" />
           </div>
         </div>
-        ;{/* BLOQUE 2 */}
+        {/* BLOQUE 2 */}
         <div className="experience-row reverse">
           <div className="experience-text">
             <h2>Profesionalidad y cercanía</h2>
