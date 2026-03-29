@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-right">
-          <h4>Síguenos</h4>
+          <h4>Síguenos en:</h4>
           <div className="social-icons">
             <a
               href="https://www.instagram.com/premiereestilistas/?hl=es"
@@ -48,7 +48,7 @@ export default function Footer() {
               </svg>
             </a>
 
-            <a
+            {/* <a
               href="#"
               target="_blank"
               rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export default function Footer() {
               >
                 <path d="M22 12a10 10 0 10-11.5 9.9v-7H8v-3h2.5V9.5c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.3 0-1.7.8-1.7 1.6V12H17l-.4 3h-2.9v7A10 10 0 0022 12z" />
               </svg>
-            </a>
+            </a> */}
           </div>
           <img
             src={logo}
@@ -72,10 +72,10 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2026 Premiére Estilistas</p>
+        <p className="copy">© 2026 Premiére Estilistas</p>
         <p className="designer-credit">
           Diseño y desarrollo:{" "}
-          <a href="mailto:nicolas.oscar@outlook.es">
+          <a className="designer-link" href="mailto:nicolas.oscar@outlook.es">
             Contacta con Óscar Nicolás
           </a>
         </p>

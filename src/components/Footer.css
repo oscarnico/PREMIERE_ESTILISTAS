@@ -80,14 +80,16 @@
 }
 
 .footer-bottom a {
-  color: #333;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .designer-credit {
   font-size: 0.8rem;
-  color: #333;
+  color: white;
+}
+.copy {
+  color: white;
 }
 
 /* ---------- RESPONSIVE ---------- */

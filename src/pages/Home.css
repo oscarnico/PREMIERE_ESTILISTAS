@@ -110,6 +110,10 @@
   color: #333;
 }
 
+.experience-text strong {
+  font-style: italic;
+}
+
 .experience-image {
   display: flex;
   justify-content: center;
@@ -153,13 +157,11 @@
   font-size: 1.8rem;
   margin-bottom: 10px;
   letter-spacing: 1px;
-  /* color: #000; */
 }
 
 .instagram p {
   font-size: 1rem;
   margin-bottom: 25px;
-  /* color: #000; */
 }
 
 .instagram h2,
@@ -177,23 +179,6 @@
   background-clip: text;
 }
 
-/* .instagram-button {
-  display: inline-block;
-  padding: 12px 30px;
-  border: 2px solid #000;
-  border-radius: 6px;
-  background: transparent;
-  color: #000;
-  text-decoration: none;
-  font-size: 0.9rem;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-}
-
-.instagram-button:hover {
-  background: #000;
-  color: #fff;
-} */
 .instagram-button {
   display: inline-block;
   padding: 12px 30px;
@@ -289,20 +274,22 @@
 }
 
 .review-card {
-  flex: 0 0 30%;
+  flex: 0 0 48%;
   background: white;
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   min-height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  aspect-ratio: 16 / 9;
+  min-height: 350px;
 }
 
 /* -------- CAROUSEL WRAPPER Y FLECHAS -------- */
@@ -310,7 +297,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -351,7 +338,7 @@
 /* Añadir entre desktop y mobile */
 @media (min-width: 769px) and (max-width: 1024px) {
   .review-card {
-    flex: 0 0 45%; /* 2 tarjetas en tablet */
+    flex: 0 0 45%;
   }
 
   .reviews-section {
@@ -387,12 +374,20 @@
     font-size: 1.6rem;
   }
 
+  .reviews-carousel {
+    gap: 15px;
+    padding: 0 20px 20px;
+    scroll-padding: 20px;
+  }
+
   .review-card {
-    flex: 0 0 75%;
+    flex: 0 0 82%;
+    min-height: 245px;
+    aspect-ratio: 4 / 3;
   }
 
   .reviews-section {
-    padding: 80px 5%;
+    padding: 60px 10px;
   }
 
   .carousel-arrow {
@@ -410,7 +405,7 @@
 
 .brands-section {
   padding: 0px 20px 40px;
-  background: #f8f8f8; /* tono cálido elegante */
+  background: #f8f8f8;
   text-align: center;
 }
 

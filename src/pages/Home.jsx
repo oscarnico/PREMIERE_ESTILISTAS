@@ -3,9 +3,10 @@ import heroDesk from "../assets/hero-desk.jpeg";
 import heroMovil from "../assets/hero-movil.jpeg";
 import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import vanesa from "../assets/vane.png";
+import bloque2 from "../assets/pecados.png";
+import bloque1 from "../assets/tono-eterno.png";
 import instagramBg from "../assets/instagram-section.png";
-import google1 from "../assets/google1.jpeg";
+import google1 from "../assets/google1.png";
 import google2 from "../assets/google2.png";
 import google3 from "../assets/google3.png";
 import google4 from "../assets/google4.png";
@@ -63,32 +64,67 @@ export default function Home() {
         {/* BLOQUE 1 */}
         <div className="experience-row">
           <div className="experience-text">
-            <h2>Descubre nuestras experiencias únicas</h2>
+            <h2>El Secreto de un Tono Eterno</h2>
             <p>
-              En Premiére Estilistas podrás encontrar las últimas tendencias.
-            </p>
-            <p>
-              Cada visita es una experiencia única. Nuestro equipo de expertos
-              estilistas se dedica a ofrecerte un servicio personalizado.
+              Lograr el tono de tus sueños es solo el primer paso; el verdadero
+              arte está en mantenerlo vibrante día tras día. Para que tu color
+              no pierda su magia, la clave es la moderación: intenta espaciar
+              los lavados con agua templada y reduce el uso de herramientas de
+              calor, que son las principales responsables de la pérdida de
+              brillo. No olvides que el sol y el cloro son enemigos silenciosos,
+              así que blinda tu melena con protectores UV y mímala semanalmente
+              con una nutrición profunda que selle la cutícula. Un cabello
+              hidratado no solo retiene mejor el pigmento, sino que proyecta esa
+              vitalidad saludable que te hará lucir como recién salida del salón
+              durante semanas.
             </p>
           </div>
 
           <div className="experience-image">
-            <img src={vanesa} alt="Premiére Estilistas - Vane" />
+            <img src={bloque1} alt="Premiére Estilistas - Tono Eterno" />
           </div>
         </div>
         {/* BLOQUE 2 */}
         <div className="experience-row reverse">
           <div className="experience-text">
-            <h2>Profesionalidad y cercanía</h2>
+            <h2>
+              🚩 Pecados Capitales para tu Color (¡Evítalos a toda costa!)
+            </h2>
             <p>
-              Trabajamos cada detalle para que tu experiencia sea exclusiva.
+              Para que tu melena luzca de salón por mucho más tiempo, huye de
+              estos errores comunes:
             </p>
-            <p>Cuidamos tu imagen respetando tu esencia y personalidad.</p>
+            <p>
+              <strong>Duchas de "vapor":</strong> El agua muy caliente abre la
+              cutícula de par en par, dejando que el pigmento se escape en cada
+              lavado. Opta siempre por agua tibia o fría para sellar el brillo.
+            </p>
+            <p>
+              <strong>Sulfatos agresivos:</strong> Usar cualquier champú del
+              supermercado es el camino rápido hacia un color opaco. Los
+              sulfatos barren el tinte; busca siempre fórmulas color-safe.
+            </p>
+            <p>
+              <strong>Plancha "a pulmón":</strong> Pasar la plancha o el rizador
+              sin un protector térmico previo es, literalmente, cocinar tu
+              color. El calor extremo oxida el tono y lo vuelve amarillento o
+              cobrizo.
+            </p>
+            <p>
+              <strong>Cloro sin barrera:</strong> Entrar a la piscina con el
+              pelo seco es un error. El cabello seco absorbe el cloro como una
+              esponja; humedécelo siempre con agua dulce y un poco de
+              acondicionador antes de nadar.
+            </p>
+            <p>
+              <strong>Retos caseros:</strong> La tentación de "arreglar" la raíz
+              en casa puede terminar en un desastre químico difícil (y caro) de
+              corregir. Confía siempre en manos expertas.
+            </p>
           </div>
 
           <div className="experience-image">
-            <img src={vanesa} alt="Premiére Estilistas - Vane" />
+            <img src={bloque2} alt="Premiére Estilistas - Pecados Capitales" />
           </div>
         </div>
       </section>
@@ -139,7 +175,7 @@ export default function Home() {
 
           <div className="stars">★★★★★</div>
 
-          <h6>Valoración media en Google</h6>
+          <h6>Valoración media en</h6>
 
           <div className="google-logo">
             <span className="g-blue">G</span>
