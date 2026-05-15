@@ -6,11 +6,11 @@
   padding: 10px 20px;
   background-color: #ffffff;
   border-bottom: 1px solid #eee;
-  position: fixed; /* pega el navbar arriba */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000; /* para que quede por encima del contenido */
+  z-index: 1000;
 }
 
 /* LOGO */
@@ -52,13 +52,13 @@
 /* ---------- MOBILE ---------- */
 @media (max-width: 768px) {
   .menu-toggle {
-    display: block; /* se ve en móvil */
+    display: block;
   }
 
   .nav-links {
-    display: none; /* oculto por defecto */
+    display: none;
     position: absolute;
-    top: 60px; /* justo debajo del navbar */
+    top: 60px;
     left: 0;
     width: 100%;
     flex-direction: column;
@@ -69,7 +69,7 @@
   }
 
   .nav-links.open {
-    display: flex; /* se muestra al pulsar hamburguesa */
+    display: flex;
   }
 
   .nav-links a {

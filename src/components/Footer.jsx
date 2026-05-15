@@ -72,7 +72,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p className="copy">© 2026 Premiére Estilistas</p>
+        <p className="copy">© 2026 Première Estilistas</p>
         <p className="designer-credit">
           Diseño y desarrollo:{" "}
           <a className="designer-link" href="mailto:nicolas.oscar@outlook.es">
