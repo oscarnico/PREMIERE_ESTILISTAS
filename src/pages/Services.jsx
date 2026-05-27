@@ -41,11 +41,11 @@ export default function Services() {
       <section className="services-intro">
         <h3>Cortes clásicos y modernos</h3>
         <p>
-          En Premiére Estilistas creemos que un corte de caballero es mucho más
-          que una forma: es una declaración, un instante de renovación y una
-          manera de reconectar contigo. Por eso, cada corte, ya sea clásico o
-          moderno, nace de una escucha atenta, de comprender quién eres y cómo
-          quieres sentirte.
+          En Premiére Estilistas creemos que un corte de caballero/señora es
+          mucho más que una forma: es una declaración, un instante de renovación
+          y una manera de reconectar contigo. Por eso, cada corte, ya sea
+          clásico o moderno, nace de una escucha atenta, de comprender quién
+          eres y cómo quieres sentirte.
         </p>
       </section>
 

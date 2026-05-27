@@ -14,7 +14,7 @@ export default function About() {
           <h1>PREMIÈRE ESTILISTAS</h1>
 
           <p>
-            Con más de veinte años de experiencia, Vanesa Alba lidera Premiére
+            Con más de treinta años de experiencia, Vanesa lidera Premiére
             Estilistas con la seguridad de quien domina su oficio y la calidez
             de quien sabe escuchar. Su visión, unida a un equipo comprometido y
             altamente cualificado, ha convertido el salón en un referente donde

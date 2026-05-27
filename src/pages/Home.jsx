@@ -69,14 +69,15 @@ export default function Home() {
               Lograr el tono de tus sueños es solo el primer paso; el verdadero
               arte está en mantenerlo vibrante día tras día. Para que tu color
               no pierda su magia, la clave es la moderación: intenta espaciar
-              los lavados con agua templada y reduce el uso de herramientas de
-              calor, que son las principales responsables de la pérdida de
-              brillo. No olvides que el sol y el cloro son enemigos silenciosos,
-              así que blinda tu melena con protectores UV y mímala semanalmente
-              con una nutrición profunda que selle la cutícula. Un cabello
-              hidratado no solo retiene mejor el pigmento, sino que proyecta esa
-              vitalidad saludable que te hará lucir como recién salida del salón
-              durante semanas.
+              los lavados con agua templada y protege tu cabello con un
+              protector térmico cuando uses herramientas de calor, que son las
+              principales responsables de la pérdida de brillo. No olvides que
+              el sol y el cloro son enemigos silenciosos, así que blinda tu
+              melena con protectores UV y mímala semanalmente con una nutrición
+              profunda que selle la cutícula. Un cabello hidratado no solo
+              retiene mejor el pigmento, sino que proyecta esa vitalidad
+              saludable que te hará lucir como recién salida del salón durante
+              semanas.
             </p>
           </div>
 

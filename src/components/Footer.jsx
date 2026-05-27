@@ -48,8 +48,8 @@ export default function Footer() {
               </svg>
             </a>
 
-            {/* <a
-              href="#"
+            <a
+              href="https://www.facebook.com/premiereestilistas"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -61,7 +61,7 @@ export default function Footer() {
               >
                 <path d="M22 12a10 10 0 10-11.5 9.9v-7H8v-3h2.5V9.5c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.3 0-1.7.8-1.7 1.6V12H17l-.4 3h-2.9v7A10 10 0 0022 12z" />
               </svg>
-            </a> */}
+            </a>
           </div>
           <img
             src={logo}
