@@ -16,6 +16,7 @@ import jeanpaulmyne from "../assets/jeanpaulmyne.jpg";
 import redken from "../assets/redken.png";
 import organethic from "../assets/organethic.jfif";
 import inoa from "../assets/inoa.png";
+import ghd from "../assets/ghd.jpg";
 
 export default function Home() {
   const [bgImage, setBgImage] = useState(heroDesk);
@@ -139,11 +140,12 @@ export default function Home() {
           </p>
 
           <div className="brands-logos">
-            <img src={loreal} alt="L'Oréal Professionnel" />
-            <img src={jeanpaulmyne} alt="Jean Paul Mynè" />
             <img src={redken} alt="Redken" />
-            <img src={organethic} alt="Organethic" />
+            <img src={loreal} alt="L'Oréal Professionnel" />
+            <img src={ghd} alt="GHD" />
             <img src={inoa} alt="Inoa by L'Oréal" />
+            <img src={organethic} alt="Organethic" />
+            <img src={jeanpaulmyne} alt="Jean Paul Mynè" />
           </div>
         </div>
       </section>

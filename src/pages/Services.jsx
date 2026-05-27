@@ -118,6 +118,11 @@ export default function Services() {
           </p>
         </div>
       </section>
+      <p className="services-ending">
+        Además, muchos de nuestros servicios pueden completarse con maquillaje y
+        tratamientos de estética, pensados para realzar tu imagen y hacer que te
+        sientas bien en cada detalle.
+      </p>
     </div>
   );
 }

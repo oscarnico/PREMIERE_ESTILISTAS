@@ -5,6 +5,17 @@
   color: #000;
 }
 
+.services-ending {
+  max-width: 800px;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  font-style: italic;
+}
+
 /* ---------- BANNER ---------- */
 
 .services-banner {
